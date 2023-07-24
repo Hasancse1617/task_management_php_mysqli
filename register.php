@@ -3,12 +3,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./style.css"/>
-    <title>Task management</title>
+    <title>Todo List</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-        <a class="navbar-brand" href="#">Task Management</a>
+        <a class="navbar-brand" href="#">Todo List</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -50,6 +50,7 @@
                     <input type="password" name="c_password" id="c_password" required="required" placeholder="******"/><br/><br />
                     <input type="submit" value=" Submit " name="submit"/><br />
                 </form>
+                <?php require("./register_script.php") ?>
             </div>
         </div>
     </div> 
